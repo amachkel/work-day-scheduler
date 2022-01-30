@@ -25,7 +25,7 @@ body {
   
   .description {
     white-space: pre-wrap;
-    min-width:50vw;
+    min-width:45vw;
   }
   
   .time-block {
@@ -77,4 +77,4 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
+  /* Needs breakpoint at 1572px */
