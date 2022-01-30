@@ -23,16 +23,19 @@ body {
   
   .description {
     white-space: pre-wrap;
+    min-width:50vw;
   }
   
   .time-block {
     text-align: center;
     border-radius: 15px;
+    list-style-type: none;
   }
   
   .row {
     white-space: pre-wrap;
     height: 80px;
+    justify-content: center;
     border-top: 1px solid white;
   }
   
@@ -40,6 +43,7 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    padding: 15px;
   }
   
   .past {
