@@ -25,7 +25,8 @@ body {
   
   .description {
     white-space: pre-wrap;
-    min-width:45vw;
+    min-width:37vw;
+    border-top: 1px solid white;
   }
   
   .time-block {
@@ -73,8 +74,7 @@ body {
     width:10vw;
   }
   
-  .saveBtn i:hover {
+  .saveBtn:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  /* Needs breakpoint at 1572px */
