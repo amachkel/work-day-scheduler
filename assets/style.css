@@ -3,6 +3,8 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+
+  button {padding:0;}
   
   textarea {
     background: transparent;
@@ -44,6 +46,7 @@ body {
     color: #000000;
     border-top: 1px dashed #000000;
     padding: 15px;
+    width:10vw;
   }
   
   .past {
@@ -67,6 +70,7 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    width:10vw;
   }
   
   .saveBtn i:hover {
