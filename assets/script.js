@@ -14,6 +14,7 @@ getInit = () => {
 
     //input's attribute `data-id` is its corresponding key
     $(`input[data-id=${key}]`).val(description);
+//$(#9 )
   }
 };
 
@@ -27,6 +28,7 @@ attachBtnClicks = () => {
     
     //dataId is the key, description is the value.
     localStorage.setItem(`${dataId}`, description); //store description and its data-id (using string interpolation)
+
   });
 };
 
@@ -55,3 +57,5 @@ main = () => {
   reserveTimeStates();
 };
 main();
+
+
