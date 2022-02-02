@@ -18,11 +18,13 @@ textarea {
 }
 
 .jumbotron {
+  position: relative;
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 4rem 2rem;
 }
 
 .description {
@@ -68,9 +70,19 @@ textarea {
 .clear-btn {
   padding: 10px;
   border: 1px solid black;
+  box-shadow: 1px 1px 1px;
   border-radius: 15px;
+  position: absolute;
+  text-align: center;
+  transform: translate(-60%);
   background-color: #06aed5;
   color: black;
+}
+
+.clear-btn:hover {
+  transition: all 0.1s ease-in-out;
+  box-shadow: 2px 2px 2px;
+  font-size: 18px;
 }
 
 .saveBtn {
@@ -81,7 +93,11 @@ textarea {
   color: white;
 }
 
+.fas {
+  font-size: 24px;
+}
+
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  font-size: 30px;
+  transition: all 0.1s ease-in-out;
 }
