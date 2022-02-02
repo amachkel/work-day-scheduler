@@ -49,12 +49,25 @@ reserveTimeStates = () => {
   });
 };
 
+clearDayBtn = () => {
+  const clearDayBtn = $(".clear-btn");
+  clearDayBtn.on("click", function () {
+    localStorage.clear();
+    for (let i = 0; i < $(".description").length; i++){
+      $(".description").val('');
+    }
+    
+  })
+  
+
+}
 //main function to call each function.
 main = () => {
   getCurrentTime();
   getInit();
   attachBtnClicks();
   reserveTimeStates();
+  clearDayBtn();
 };
 main();
 
